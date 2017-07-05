@@ -10,6 +10,7 @@ This repository contains example tools and pipelines discussed on [my blog](http
 Here are some posts you may be interested in:
 
  * [Sample Demultiplexing an Illumina Sequencing Run](http://nilshomer.com/2017/06/25/sample-demultiplexing-an-illumina-sequencing-run)
+ * [Single Strand UMI Somatic Variant Calling](http://nilshomer.com/2017/07/05/single-strand-umi-somatic-variant-calling/)
 
 ## Getting Started
 
