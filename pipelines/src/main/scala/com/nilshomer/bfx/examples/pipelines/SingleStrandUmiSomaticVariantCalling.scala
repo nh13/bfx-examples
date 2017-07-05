@@ -36,7 +36,7 @@ import dagr.tasks.picard._
 import dagr.tasks.vc.VarDictJavaEndToEnd
 import htsjdk.variant.vcf.VCFFileReader
 
-@clp(group=PipelineGroups.SequencingRun, description=
+@clp(group=PipelineGroups.SingleSample, description=
   """
     |Creates single-UMI consensus reads and calls somatic variants.
     |

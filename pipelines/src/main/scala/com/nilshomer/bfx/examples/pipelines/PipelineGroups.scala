@@ -36,5 +36,11 @@ object PipelineGroups {
     override val description: String = "Pipelines that operate on a whole sequencing run."
   }
 
+  class _SingleSample extends ClpGroup {
+    override val name: String = "Single Sample Analysis Pipelines"
+    override val description: String = "Pipelines that operate on a single sample."
+  }
+
   final val SequencingRun = classOf[_SequencingRun]
+  final val SingleSample = classOf[_SingleSample]
 }
